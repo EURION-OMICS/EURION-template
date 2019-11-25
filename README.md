@@ -1,19 +1,19 @@
 # Irset-Transcriptomics-Test
 
-##Objectives
+## Objectives
 
 
 The EURION GitHub repository aims to centralize bioinformatics resources used by the EURION cluster’s members to analyze omics data. In order to improve reusability of analysis pipelines and accessibility to the tools and data, each member will be allowed to create new repositories following these guidelines.
 
 
-##Repositories structure
-###Repository Name
+## Repositories structure
+### Repository Name
 Each new repository must use the following nomenclature: 
 
            {Institut_name}-{Technology}-{Sub-technology} 
            	i.e.: Irset-Transcriptomics-SingleCell
  
-###Repository Structure
+### Repository Structure
 To improve usability, please use the following structure: 
  
            {Institut_name}-{Technology}-{Sub-technology}
@@ -38,9 +38,9 @@ For more information about how to write a README please see https://www.makearea
  
 Using all these elements, users must be able to easily launch the pipeline on the input test data. The results of the pipeline must be the provided output test data.
 
-##Reproducible analysis
+## Reproducible analysis
 One of the main objectives of this GitHub repository is to allow the reproducibility of the analyzes, especially if you use specific software. For this, two tools are recommended: Docker or Conda. 
 
-###Docker
+### Docker
 Docker is an open-source engine that automates the deployment of applications into containers. The main goal is to help users create and share complex work environments with other users. The environment creator must provide a “Dockerfile” (containing all installation instructions) and all the required files. Then, any user will be able to re-create the exact same environment, and thus run any tools required by a pipeline. All containers are isolated from each other, avoiding any conflicts between tools, and work on any OS (Mac, Linux or Windows >7 64 bits).
 Docker is especially powerful for molecular biologists, due to the sheer complexity of work environments (high number of tools, complex installations…)
