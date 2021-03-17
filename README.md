@@ -7,6 +7,8 @@ The EURION GitHub repository aims to centralize bioinformatics resources used by
 
 
 ## Repositories structure
+
+
 ### Repository Name
 Each new repository must use the following nomenclature: 
 
@@ -17,22 +19,25 @@ Each new repository must use the following nomenclature:
 To improve usability, please use the following structure: 
  
            {Institut_name}-{Technology}-{Sub-technology}
-                       | - Docs
+                       | - DOC
                        | 	|- doc.txt
-                       | - Data
+                       | - TESTDATA
                        | 	|- Inputs 
                        | 	|     | - Input01_run.XYZ
                        | 	|- Outputs
                        | 	|     | - Output01_run.XYZ 
-                       | - Scripts
+                       | - SCRIPT
                        | 	|- ScriptXXX_run.XY
                        | 	|- DOCKERFILE
                        | - README
                        
            
-•	Docs is a directory containing all documentation needed to use the pipeline.
-•	Data is a directory containing both input and output test data, allowing users to easily test the pipeline. Since repositories should not contain heavy files, please provide a text file with a link to the data if its size is bigger than 50 MB.
+•	DATA is a directory containing all documentation needed to use the pipeline.
+
+•	TESTDATA is a directory containing both input and output test data, allowing users to easily test the pipeline. Since repositories should not contain heavy files, please provide a text file with a link to the data if its size is bigger than 50 MB.
+
 •	Scripts is a directory where all pipeline analysis scripts are stored. This folder can be divided into sub-folders to structure each analysis steps or tools.
+
 •	README. A README is a text file that introduces and explains the project. It contains information that is commonly required to understand what the project is about and how to run scripts. Please make sure to include the exact version of each tool you use, and the source if possible.
 For more information about how to write a README please see https://www.makeareadme.com/ or https://gist.github.com/PurpleBooth/109311bb0361f32d87a2 
  
