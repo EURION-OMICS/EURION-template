@@ -1,4 +1,4 @@
-# Irset-Transcriptomics-Test
+# Irset-transcriptomics-Test
 
 ## Objectives
 
